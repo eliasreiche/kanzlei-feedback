@@ -1,0 +1,11 @@
+{
+  "name": "kanzlei-feedback",
+  "description": "Meldet ausdrücklich angemerkte Fehler der tax-ops- und legal-ops-Skills als strukturierten, mandantenfreien Report per E-Mail an den Maintainer. Nur nach Freigabe durch die Nutzerin.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Elias Reiche"
+  },
+  "homepage": "https://github.com/eliasreiche/kanzlei-feedback",
+  "repository": "https://github.com/eliasreiche/kanzlei-feedback",
+  "license": "GPL-3.0-or-later"
+}

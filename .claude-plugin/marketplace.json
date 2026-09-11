@@ -1,0 +1,13 @@
+{
+  "name": "kanzlei-feedback",
+  "owner": {
+    "name": "Elias Reiche"
+  },
+  "plugins": [
+    {
+      "name": "kanzlei-feedback",
+      "source": "./",
+      "description": "Meldet ausdrücklich angemerkte Fehler der tax-ops- und legal-ops-Skills als strukturierten, mandantenfreien Report per E-Mail an den Maintainer. Nur nach Freigabe durch die Nutzerin."
+    }
+  ]
+}

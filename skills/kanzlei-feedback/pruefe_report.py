@@ -19,7 +19,7 @@ MUSTER = {
     "Gerichts-Az": r"\b\d{1,3}\s?[A-Z]{1,3}\s?\d{1,5}/\d{2}\b",
     "Gericht mit Ort": r"\b(?:Amtsgericht|Landgericht|Oberlandesgericht|Finanzgericht|Arbeitsgericht|Sozialgericht|Verwaltungsgericht|AG|LG|OLG|FG)\s+[A-ZÄÖÜ][a-zäöüß-]{2,}\b",
 }
-ERLAUBT = re.compile(r"elias@law-flow\.de|\[(?:Mandant|Steuernummer|Betrag|Az|Gericht)\]")
+ERLAUBT = re.compile(r"info@law-flow\.de|\[(?:Mandant|Steuernummer|Betrag|Az|Gericht)\]")
 
 
 def pruefe(text: str) -> list[tuple[int, str, str]]:
@@ -55,7 +55,7 @@ def demo() -> None:
     arten = {name for _, name, _ in pruefe(schmutzig)}
     assert {"Firma", "Steuernummer", "E-Mail", "Anrede/Name", "Gerichts-Az", "Gericht mit Ort"} <= arten, arten
     sauber = ("Skill: ao-fristenrechner\naufgabe_zur_post: 2026-02-03, bundesland: NW\n"
-              "Ergebnis: 2026-03-09, erwartet: 2026-03-06\nAn: elias@law-flow.de\nMandant: [Mandant]\n"
+              "Ergebnis: 2026-03-09, erwartet: 2026-03-06\nAn: info@law-flow.de\nMandant: [Mandant]\n"
               "Paket: legal-ops, Skill: fristenrechner, zustellung: 2026-01-15, Gericht: [Gericht]")
     assert pruefe(sauber) == [], pruefe(sauber)
     print("demo ok")

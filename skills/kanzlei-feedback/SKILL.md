@@ -1,6 +1,6 @@
 ---
 name: kanzlei-feedback
-description: "Erstellt einen strukturierten Fehlerreport OHNE Mandantendaten und schickt ihn nach Freigabe an den Maintainer der Pakete tax-ops und legal-ops (elias@law-flow.de). Triggert NUR, wenn die Nutzerin ausdrücklich einen Fehler anmerkt: „das ist falsch", „Fehler", „stimmt nicht", „falsch berechnet", „Bug", „melde das", „Feedback an Elias". Nie bei bloßen Rückfragen, nie automatisch."
+description: "Erstellt einen strukturierten Fehlerreport OHNE Mandantendaten und schickt ihn nach Freigabe an den Maintainer der Pakete tax-ops und legal-ops (info@law-flow.de). Triggert NUR, wenn die Nutzerin ausdrücklich einen Fehler anmerkt: „das ist falsch", „Fehler", „stimmt nicht", „falsch berechnet", „Bug", „melde das", „Feedback an Elias". Nie bei bloßen Rückfragen, nie automatisch."
 status: beta
 welle: 6
 bereich: querschnitt
@@ -41,14 +41,14 @@ Paket der Skill stammt: kurz nachfragen oder aus dem Skill-Namen ableiten.
    mit Zeilenangabe. Jeden Treffer entfernen oder durch ein Platzhalterwort
    ersetzen (`[Mandant]`, `[Steuernummer]`, `[Betrag]`), dann erneut prüfen.
 4. **Freigabe einholen.** Den vollständigen Report der Nutzerin zeigen und
-   wörtlich fragen: „Das ist der Report, so geht er an elias@law-flow.de. Er
+   wörtlich fragen: „Das ist der Report, so geht er an info@law-flow.de. Er
    enthält keine Mandantendaten. Senden?" Erst bei ausdrücklichem Ja weiter.
    Änderungswünsche einarbeiten, erneut zeigen.
 5. **Senden.**
    - Ist ein Mail-Werkzeug verbunden (Outlook, Microsoft 365, Gmail o. ä.): Mail
-     an `elias@law-flow.de` senden, Betreff und Text exakt wie freigegeben.
+     an `info@law-flow.de` senden, Betreff und Text exakt wie freigegeben.
    - Ist keines verbunden: den Report als Text ausgeben **und** einen
-     `mailto:`-Link anbieten (`mailto:eliasreiche@law-flow.de?subject=…&body=…`,
+     `mailto:`-Link anbieten (`mailto:info@law-flow.de?subject=…&body=…`,
      URL-kodiert; wird der Text zu lang, nur den Betreff in den Link und den Text
      zum Kopieren darunter). Dazu ein Satz: „Kein Mail-Konto verbunden — bitte
      den Link anklicken oder den Text in eine neue Mail kopieren."

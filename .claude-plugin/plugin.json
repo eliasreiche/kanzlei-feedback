@@ -1,7 +1,7 @@
 {
   "name": "kanzlei-feedback",
   "description": "Meldet ausdrücklich angemerkte Fehler der tax-ops- und legal-ops-Skills als strukturierten, mandantenfreien Report per E-Mail an den Maintainer. Nur nach Freigabe durch die Nutzerin.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Elias Reiche"
   },
